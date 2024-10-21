@@ -1,0 +1,41 @@
+header{
+    background-color: black;
+}
+
+body{
+    background-color: #87CEFA;
+}
+
+.galeria{
+    background-color: black;
+}
+
+#Gal01{
+    padding: 10px;
+    width: 400px;
+}
+#Gal02{
+    padding: 10px;
+    width: 400px;
+}
+#Gal03{
+    padding: 10px;
+    width: 400px;
+}
+#Gal04{
+    padding: 10px;
+    width: 400px;
+}
+
+#menu{
+    font-size: 50px;
+}
+
+#fot1{
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+#fot2{
+    background-color: aliceblue;
+    float:right;
+}
