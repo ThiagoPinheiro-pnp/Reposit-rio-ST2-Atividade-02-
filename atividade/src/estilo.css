@@ -1,0 +1,110 @@
+header{
+    background-color: aliceblue;
+}
+
+.frasetop{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body{
+    background-color: #87CEFA;
+}
+
+.galeria{
+    background-color: black;
+    display: flex;
+    flex-wrap: flex;
+}
+
+#Gal01{
+    padding: 10px;
+    width: 400px;
+    margin-left: 25px;
+    margin-right: 50px;
+}
+#Gal02{
+    padding: 10px;
+    width: 400px;
+    margin-right: 50px;
+}
+#Gal03{
+    padding: 10px;
+    width: 400px;
+    margin-right: 50px;
+}
+#Gal04{
+    padding: 10px;
+    width: 400px;
+    margin-right: 50px;
+}
+
+#menu{
+    font-size: 50px;
+}
+
+#fot1{
+    float: left;
+}
+#fot2{
+
+    float:right;
+
+}
+
+.promo{
+    display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+}
+
+.imagempromo{
+    background-color: #d8e3ec;
+	width: 200px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	border-radius: 15px;
+	transition: 0.2s ease-in-out;
+}
+
+.itens{
+    width: 200px;
+    height: 200px;
+}
+
+#btopo{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bcentral{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    margin-top: 25px;
+    background-color: aliceblue;
+    height: 50px;
+    width: 1880px;
+}
