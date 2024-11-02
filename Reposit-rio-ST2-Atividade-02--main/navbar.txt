@@ -1,0 +1,7 @@
+<div class="galeria container-fluid">
+        <img id ="Gal01" src="src/images/Gal01.jpeg" alt="Foto 01">
+        <img id ="Gal02" src="src/images/Gal02.jpeg" alt="Foto 02">
+        <img id="Gal03" src="src/images/Gal03.jpeg" alt="Foto 03">
+        <img id="Gal04" src="src/images/Gal04.jpeg" alt="Foto 04">
+        
+    </div> 
