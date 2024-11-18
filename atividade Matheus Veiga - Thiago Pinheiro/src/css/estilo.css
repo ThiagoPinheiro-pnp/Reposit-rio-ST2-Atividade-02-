@@ -1,0 +1,484 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f5;
+}
+
+
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.5rem;
+}
+
+
+.logo {
+    width: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+@media (max-width: 1600px) {
+    .button-container {
+
+        display: none;
+    }
+}
+
+
+.body {
+    background-image: url('atividade/src/images/Imagem_para_Login.webp');
+
+}
+
+.promo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-left: -15px;
+}
+
+.imagempromo {
+    background-color: #ffffff;
+    width: 250px;
+    height: 460px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: 0.2s ease-in-out;
+    margin-left: -10px;
+    box-shadow: -0px 0px 5px 1px #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.itens {
+    width: 200px;
+    height: 200px;
+}
+
+#btopo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.imgcentral{
+    width: 1343px;
+}
+
+h2 {
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.destaque {
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.nossas,
+.destaques {
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #000;
+    font-weight: bolder;
+}
+
+.destatodos{
+    display: flex;
+    gap: 1200px;
+}
+
+.vertodos{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.venhas {
+    margin-left: 15px;
+}
+
+.preco {
+    margin-right: 60px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.prod {
+    font-weight: bold;
+}
+
+#cadeira1 {
+    margin-top: 45px;
+}
+
+#fc25 {
+    margin-top: 45px;
+}
+
+#fone {
+    margin-top: 50px;
+}
+
+#placamae {
+    margin-top: 25px;
+}
+
+#bayo {
+    margin-top: 50px;
+}
+
+.h3 {
+    justify-content: center;
+}
+
+.carrosel {
+    padding-right: 5px;
+}
+
+
+.exteriorcar {
+    background-image: rgba(0, 110, 255, 0.384), rgba(98, 0, 255, 0.315), #6f00ff0a;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textocar {
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 31%, rgba(0,212,255,1) 100%);
+    color: #ffffff;
+    border: 2px solid black;
+    width: 50%;
+    height: auto;
+    background-color: #ffffff00;
+    display: inline-block;
+    border-radius: 10px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px
+}
+
+.carousel-inner {
+    border-radius: 15px;
+
+}
+
+.marcas{
+    width: 100%;
+}
+
+.marcas2{
+    width: 75%;
+    margin-left: 250px;
+}
+
+
+.quadrado#q1 {
+    border: 2px solid rgb(255, 255, 255);
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff5b;
+    display: inline-block;
+    border-radius: 10px;
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form1 {
+    width: 500px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.botao:hover {
+    background-color: #0056b3;
+}
+
+/* Body */
+/* Body */
+/* Body */
+/* Baixo */
+
+
+/* Footer */
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b3d4148;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 60px;
+    width: 100%; 
+}
+
+.footer-container {
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    width: 100%; 
+    background: #000000;
+}
+
+.footer-items h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0 10px 0;
+}
+
+.footer-items ul {
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 0; 
+}
+
+.footer-items li a {
+    color: #ddd;
+    font-size: 0.875rem;
+    text-decoration: none; 
+}
+
+.footer-items li a:hover {
+    text-decoration: underline;
+}
+
+.footer-container::after {
+    content: ""; 
+    display: block;
+    clear: both;
+}
+
+/* Footer */
+
+#btnsearch{
+    height: 36px;
+}
+
+.btncomprar{
+    width: 230px;
+    height: auto;
+    background-image: linear-gradient(30deg, #000 45%, #ffffff 170%);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+@media screen and (max-width:900px) {
+    .destaques {
+        text-decoration: none;
+        margin-top: 45px;
+        margin-left: 25px;
+        color: #000;
+        font-weight: bolder;
+    }
+    .destatodos{
+        gap: 40px;
+    }
+    .destaque{
+        margin-top: 5px;
+    }
+    .vertodos{
+        font-size: 23px;
+    }
+    .textocar{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .exteriorcar{
+        gap: 10px;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+    }
+    .carousel{
+        width: 100%;
+    }
+
+    #botaoburger{
+        width: 25px;
+    }
+    
+    .menu {
+        position: relative;
+        display: inline-block;
+        z-index: 1000;
+        margin-top: -100px;
+        margin-left: -15px;
+    }
+    .navbar{
+        z-index: 1000;
+    }
+
+    .menu-button {
+        background-color: #ffffff;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+        width: 50px;
+    }
+
+    .menu-button:hover {
+        background-color: #0056b3;
+    }
+
+    /* Estilo para o conteúdo do dropdown */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        z-index: 1000;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 5px 10px;
+        text-decoration: none;
+        display: block;
+        font-size: 14px;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Mostrar o dropdown ao passar o mouse */
+    .menu:hover .dropdown-content {
+        display: block;
+        z-index: 1000;
+    }
+    .pesquisar1{
+        display: none;
+        height: 10px;
+    }
+    .logo{
+        margin-right: 100px;
+    }
+    .marcas2{
+        margin-left: 60px;
+    }
+}
+
+
+
+
+.footer-container {
+    width: 100%; 
+    background: #000000; 
+    color: #fff; 
+    margin-top: auto; 
+}
+
+/* Botão de subir */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #3b3d41; 
+    color: #fff; 
+    border: none;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.scroll-to-top.show {
+    opacity: 1; 
+    visibility: visible;
+}
+
+.scroll-to-top:hover {
+    background-color: #555; 
+}
+
+@media screen and (min-width:900px) {
+    .menu{
+        display: none;
+    }
+}
+
+
+
